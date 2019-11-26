@@ -6,4 +6,21 @@
 *.tfstate.*
 
 # .tfvars files
-*.tfvars
+#*.tfvars
+*.tfstate*
+.terraform/
+**/inspec.lock
+*.gem
+.kitchen/
+.kitchen.local.yml
+Gemfile.lock
+terraform.tfstate.d/
+eks-admin-cluster-role-binding.yaml
+eks-admin-service-account.yaml
+config-map-aws-auth*.yaml
+kubeconfig*
+planfile
+.envrc
+sa_aws_node.yaml
+irsademo-trust-policy.json
+aws-auth-cm.yaml
